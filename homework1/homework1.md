@@ -59,7 +59,7 @@ mkisofs -r -V "Custom Ubuntu Install CD" \
    -boot-load-size 4 -boot-info-table \    
    -o $IMAGE $BUILD  
 **错误：**  
-过程中遇到了更新的问题  
+过程中遇到了有关更新的问题  
 **解决方案：**  
 按照apt-get update更新，然后apt-get install genisoimage  
 再执行上述mkisofs命令就在BUILD的目录下生成了custom.iso  
