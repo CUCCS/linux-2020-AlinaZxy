@@ -3,7 +3,7 @@
 ### 过程如下
 #### 1.首先准备好一个已经手动安装完成的虚拟机、下载好Putty工具、以及准备好下载校验完成的ubuntu-18.04.4-server-amd64.iso镜像文件
 ![1](./image/22.PNG) 
-![1](./image/1.PNG)   
+![2](./image/1.PNG)   
 #### 2.接下来按照[无人值守](https://blog.csdn.net/qq_31989521/article/details/58600426)以及老师提供的部分代码进行安装，下面还会详细叙述过程中发生的错误  
 ##### 2.1  
 首先在虚拟机中使用ip a来获取IP地址，得到192.168.56.101   
@@ -40,7 +40,7 @@ rsync -av loopdir/ cd
 后来用putty.exe对命令直接粘贴，避免了很多空格错误  
 ##### 2.8  
 将老师的unbuntu-server-autoinstall.seed通过psftp传入至虚拟机cd文件夹下   
-![1](./image/5.PNG)   
+![3](./image/5.png)   
 **错误：**  
 切换目标目录后unable to open  
 **解决方案：**  
