@@ -40,7 +40,7 @@ rsync -av loopdir/ cd
 后来用putty.exe对命令直接粘贴，避免了很多空格错误  
 ##### 2.8  
 将老师的unbuntu-server-autoinstall.seed通过psftp传入至虚拟机cd文件夹下   
-![1](./image/5.PNG) 
+![1](./image/5.PNG)   
 **错误：**  
 切换目标目录后unable to open  
 **解决方案：**  
