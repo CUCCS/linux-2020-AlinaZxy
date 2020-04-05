@@ -2,8 +2,8 @@
 ##From GUI to CLI
 ###实验环境
 >Ubuntu 18.04.4 Server  
->asciinema
-###实验过程
+>asciinema  
+###实验过程  
 ####1.安装asciinema
 
 	sudo apt install asciinema
@@ -12,20 +12,20 @@
 	asciinema auth
 ![1](./image/2.PNG)  
 查看到已经成功连接  
-####2.录制vimtutor学习过程 
+####2.录制vimtutor学习过程    
 [Lesson 1](https://asciinema.org/a/1AaHu89OZ9rU2wZZMYUWUZJTl)   
 [Lesson 2](https://asciinema.org/a/AuvLEXkS3Jf7qYjmYcwFJwul9)  
 [Lesson 3](https://asciinema.org/a/DSWln02J0mBDi0pd93is8E1H1)  
 [Lesson 4](https://asciinema.org/a/cQzbQwL7tbL1h3oHkY76mDmZj)  
 [Lesson 5](https://asciinema.org/a/5kRG1xkdQfieUbGVT047MSnz3)  
 [Lesson 6](https://asciinema.org/a/sohQW4l6Bk2JIdjf09UzxGGqG)  
-[Lesson 7](https://asciinema.org/a/RwlTYwuqFQ0rHwwzDjiLuRIAq)  
-####自查  
+[Lesson 7](https://asciinema.org/a/RwlTYwuqFQ0rHwwzDjiLuRIAq)    
+####自查    
 #####你了解vim有哪几种工作模式？  
 * Normal Mode   (一般状态下的通常模式 
 * Insert Mode   (写入模式，可以进行文本写入
 * Visual Mode   (可视化模式
-* 末行模式   (即在退出之前所进入的状态 ```：q```等
+* 末行模式   (即在退出之前所进入的状态 ```：q```等  
 #####Normal模式下，从当前行开始，一次向下移动光标10行的操作方法？如何快速移动到文件开始行和结束行？如何快速跳转到文件中的第N行？  
 1. 向下移动光标10行：```10j```
 2. 移动到开始行：```gg```
@@ -60,7 +60,7 @@
 #####查看当前正在编辑的文件名的方法？查看当前光标所在行的行号的方法？  
 ```Ctrl-G```
 #####在文件中进行关键词搜索你会哪些方法？如何设置忽略大小写的情况下进行匹配搜索？如何将匹配的搜索结果进行高亮显示？如何对匹配到的关键词进行批量替换？  
-* 关键词搜索方法
+* 关键词搜索方法   
    1. ```/关键词```
    2. ```?关键词```
 * 忽略大小写：```:set ic```
