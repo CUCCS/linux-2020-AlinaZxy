@@ -27,13 +27,13 @@
 * 错误原因：没有找到当前文件或目录
 * 解决方法：重新查找所在路径，成功执行  
 
-![1](./images/1.PNG)  
+![1](./pics/a.PNG)  
 
 #### Systemd 入门教程：实战篇  
 [开机启动+启动服务+停止服务](https://asciinema.org/a/pc1W4lwJPWRJ57eksrYHmwNiK)
 ##### 读懂配置文件（以apache2.service为例
 
-![2](./images/2.PNG)  
+![2](./pics/b.PNG)  
 
 * [Unit]区块：启动顺序与依赖关系
  1. ```Description```字段：apache2.service的简单描述
@@ -53,7 +53,7 @@
  1. ```WantedBy```字段：表示该服务所在的Target
 ##### Target的配置文件  
 
-![3](./images/3.PNG)  
+![3](./pics/c.PNG)  
 
 * [Unit]区块：
   * ```Description```字段：multi-user.target的简单描述
@@ -81,7 +81,7 @@
 * 如何实现开机自动挂载Virtualbox的共享目录分区？  
  1. 用VirtualBox虚拟机的共享文件夹设置共享的本地文件
    
- ![4](./images/4.PNG)
+ ![4](./pics/d.PNG)
   
  2. ```mkdir /mnt/share``` 在/mnt路径下创建共享目录  
  3. 实现挂载 ```mount -t vboxsf linux /mnt/share```  
