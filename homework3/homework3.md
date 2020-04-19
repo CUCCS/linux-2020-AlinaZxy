@@ -15,7 +15,7 @@
 
 [Systemd概述+系统管理](https://asciinema.org/a/bz47QzPuIUbGk1VhOFvy2vDni)  
 
-* ```sudo timedatectl set-time```无法执行 （根据当前时区自动设置
+* ```sudo timedatectl set-time```无法执行 （根据当前的时区自动设置
   
 [Unit](https://asciinema.org/a/QV7J2D03Xql4A5BTLnMOPHTIj)  
 [Unit的配置文件](https://asciinema.org/a/KRx4DSTioIGWuBxlo6qU5iekK)  
@@ -31,7 +31,7 @@
 #### Systemd 入门教程：实战篇  
 [开机启动+启动服务+停止服务](https://asciinema.org/a/pc1W4lwJPWRJ57eksrYHmwNiK)
 ##### 读懂配置文件（以apache2.service为例
-![1](./pics/b.PNG)  
+![2](./pics/b.PNG)  
 
 * [Unit]区块：启动顺序与依赖关系
  1. ```Description```字段：apache2.service的简单描述
@@ -50,7 +50,7 @@
 * [Install]区块：定义如何安装配置文件
  1. ```WantedBy```字段：表示该服务所在的Target
 ##### Target的配置文件  
-![1](./pics/c.PNG)  
+![4](./pics/c.PNG)  
 
 * [Unit]区块：
   * ```Description```字段：multi-user.target的简单描述
@@ -77,7 +77,7 @@
   * ```fdisk -l```通过这个命令获得机器中所有的硬盘的分区情况
 * 如何实现开机自动挂载Virtualbox的共享目录分区？  
  1. 用VirtualBox虚拟机的共享文件夹设置共享的本地文件  
-![1](./pics/d.PNG)  
+![3](./pics/d.PNG)  
  2. ```mkdir /mnt/share``` 在/mnt路径下创建共享目录  
  3. 实现挂载 ```mount -t vboxsf linux /mnt/share```  
  4. 实现开机自启动   
