@@ -11,7 +11,7 @@
 #### Systemd 入门教程：命令篇  
  由来： 
  
-* 无法使用 ```sudo service apache2 start``` （Ubuntu18开始不支持init进程  
+* 无法使用 ```sudo service apache2 start``` （Ubuntu18开始不再支持init进程  
 
 [Systemd概述+系统管理](https://asciinema.org/a/bz47QzPuIUbGk1VhOFvy2vDni)  
 
