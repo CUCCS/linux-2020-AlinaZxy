@@ -11,7 +11,6 @@
  >>p7zip-full    
 
 ```sudo apt-get install imagemagick``` 安装ImageMagick工具处理图片   
-
 ```sudo apt-get install p7zip-full``` 安装p7zip-full解压缩文本文件
 
 ### 任务一  
