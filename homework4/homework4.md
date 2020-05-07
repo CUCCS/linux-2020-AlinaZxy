@@ -36,33 +36,33 @@
 
 * 统计不同年龄区间范围（20岁以下、[20-30]、30岁以上）的球员数量、百分比  
  * 20岁以下：  
-   * 球员数量：9个
-   * 百分比：1.22%  
+     * 球员数量：9个
+     * 百分比：1.22%  
  * 20-30岁：
-   * 球员数量：600个
-   * 百分比：81.52%
+     * 球员数量：600个
+     * 百分比：81.52%
  * 30岁以上：  
-   * 球员数量：127个
-   * 百分比：17.26%  
+     * 球员数量：127个
+     * 百分比：17.26%  
 * 统计不同场上位置的球员数量、百分比     
  *  Goalie：
-   * 球员数量：96个  
-   * 百分比：13.04%      
+     * 球员数量：96个  
+     * 百分比：13.04%      
  *  Defender：
-   * 球员数量：236个  
-   * 百分比：32.07%  
+     * 球员数量：236个  
+     * 百分比：32.07%  
  *  Midfielder：
-   * 球员数量：268个  
-   * 百分比：36.41%      
+     * 球员数量：268个  
+     * 百分比：36.41%      
  *  Forward：
-   * 球员数量：135个  
-   * 百分比：18.34%      
+     * 球员数量：135个  
+     * 百分比：18.34%      
  *  Défenseur：
-   * 球员数量：1个  
-   * 百分比：0.14%          
+     * 球员数量：1个  
+     * 百分比：0.14%          
 * 名字最长的球员：Lazaros Christodoulopoulos  
   名字最短的球员：Jô  
-* 年龄最大的球员：Faryd Mondragon (42岁)
+* 年龄最大的球员：Faryd Mondragon (42岁)  
   年龄最小的球员：Fabrice Olinga (18岁)
 
 ### 任务三  
@@ -74,7 +74,7 @@
 - [x] 分别统计不同4XX状态码对应的TOP 10 URL和对应出现的总次数  
 - [x] 给定URL输出TOP 100访问来源主机  
 
-####任务结果  
+#### 任务结果  
 * 统计访问来源主机TOP 100和分别对应出现的总次数  
 *  次数 | 来源主机 
    :--:|:--:
@@ -181,7 +181,7 @@
 
 * 统计访问来源主机TOP 100 IP和分别对应出现的总次数  
 * 次数 | IP
-:--:|:--:
+   :--:|:--:
    4791 |163.206.89.4
    1435| 128.217.62.1
    1360| 163.205.1.19
@@ -285,7 +285,7 @@
 
 * 统计最频繁被访问的URL TOP 100
 * 次数 | URL
-:--:|:--:
+  :--:|:--:
   97410 |/images/NASA-logosmall.gif
   75337 |/images/KSC-logosmall.gif
   67448 |/images/MOSAIC-logosmall.gif
@@ -401,17 +401,17 @@
 * 分别统计不同4XX状态码对应的TOP 10 URL和对应出现的总次数  
 * 403：  
 * |URL|次数|
-|:--:|:--:|
-|/software/winvn/winvn.html/wvsmall.gif  |32次|
-|/software/winvn/winvn.html/winvn.gif    |32次|
-|/software/winvn/winvn.html/bluemarb.gif |32次|
-|/ksc.html/images/ksclogo-medium.gif     |12次|
-|/ksc.html/images/WORLD-logosmall.gif    |10次|
-|/ksc.html/images/USA-logosmall.gif      |10次|
-|/ksc.html/images/NASA-logosmall.gif     |10次|
-|/ksc.html/images/MOSAIC-logosmall.gif   |10次|
-|/ksc.html/facts/about_ksc.html          |5次 |
-|/ksc.html/shuttle/missions/missions.html|4次 |
+   |:--:|:--:|
+   |/software/winvn/winvn.html/wvsmall.gif  |32次|
+   |/software/winvn/winvn.html/winvn.gif    |32次|
+   |/software/winvn/winvn.html/bluemarb.gif |32次|
+   |/ksc.html/images/ksclogo-medium.gif     |12次|
+   |/ksc.html/images/WORLD-logosmall.gif    |10次|
+   |/ksc.html/images/USA-logosmall.gif      |10次|
+   |/ksc.html/images/NASA-logosmall.gif     |10次|
+   |/ksc.html/images/MOSAIC-logosmall.gif   |10次|
+   |/ksc.html/facts/about_ksc.html          |5次 |
+   |/ksc.html/shuttle/missions/missions.html|4次 |
   
 * 404：
 * |URL|次数|
@@ -428,7 +428,7 @@
    |/history/apollo/a-001/a-001-patch-small.gif|154次|
 
 * 给定URL输出TOP 100访问来源主机
-* 给定URL：/images/
+* 给定的URL：/images/
 *  |次数|来源主机|
    |:--:|:--:|
    |130| www-a2.proxy.aol.com /images/|
